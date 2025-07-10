@@ -1,0 +1,64 @@
+    /* 1. Class Selector */
+    .highlight {
+      color: red;
+      font-weight: bold;
+    }
+
+    /* 2. Element Selector */
+    p {
+      font-size: 16px;
+    }
+
+    /* 3. ID Selector */
+    #unique {
+      background-color: lightblue;
+      padding: 20px;
+      /* margin: 10px; */
+    }
+
+    /* 4. Universal Selector */
+    * {
+      margin: 10px;
+    }
+
+    /* 5. Grouping Selector */
+    h1, h2 {
+      color: green;
+    }
+
+    /* 6. Child Selector */
+    .parent > .child {
+      color: orange;
+    }
+
+    /* 7. Descendant Selector */
+    .ancestor .descendant {
+      font-style: italic;
+    }
+
+    /* 8. Pseudo-class Selector */
+    a:hover {
+      text-decoration: underline;
+      color: blue;
+    }
+
+    /* 9. Pseudo-element Selector */
+    p::first-letter {
+      font-size: 24px;
+      color: purple;
+    }
+
+    /* 10. Adjacent Sibling Selector */
+    .first + .second {
+      color: teal;
+    }
+
+    /* 11. General Sibling Selector */
+    .first ~ .all-siblings {
+      background-color: #eee;
+    }
+
+    /* 12. Attribute Selector */
+    input[type="text"] {
+      border: 2px solid green;
+    }

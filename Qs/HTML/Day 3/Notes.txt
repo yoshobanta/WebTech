@@ -1,0 +1,15 @@
+Pre Tag :
+It is a tag which will display the content as it is we have written within it .
+It will also consider the line breaks as well as the space we have given within the content . 
+
+<b> tag : Bold tag it will make the content bold.
+<strong> tag : We will use this tag for any important text to highlight.
+<i> tag : It will make the style in italic format
+<em> tag : Whenever we want to emphasis any content in our html document we will use this tag.
+<mark> tag : Whenever we want to highlight any content then we will go for this tag.
+<del> tag : It will show the deleted text.
+<sub> tag : whenever we want to use the subscript to our text.(base)
+<sup> tag :whenever we want to use the superscript to our text. (power)
+<abbr> tag : This tag will help use to add abbreviation to our text.
+<u> tag : This tag will be used to put under line in our text.
+<marquee> tag : The <marquee> HTML element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes. (depriciated)

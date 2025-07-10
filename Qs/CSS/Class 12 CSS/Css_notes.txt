@@ -1,0 +1,121 @@
+CSS - Cascading Style Sheet . 
+Using Css we can add styling to Html document which will make it more presentable.
+*It is not a language rather  it is an add on feature for html.
+There are three ways in which we can add css to our html document and they are :
+1. Inline Css
+2. Internal Css
+3. External Css
+
+1. Inline Css -  It is a way in which we can provide css in our html document.
+We will use this css to apply the css properties directly or individually to any html element by using style attribute.
+
+2. Internal Css - It is the second way of inserting css in our html document.
+We will use this way whenever we want to provide our same css styling to multiple html elements within a single web page.
+*This method of inserting css is recommended because it will provide uniqueness to every web page.
+We will apply this internal css by using style tag. which we will write inside the head tag.
+
+3. External Css - It is the 3rd way of inserting css in our html document.
+We will use this way of applying css whenever we do not want to make our Html congested.
+*This way is also recommended because error dictation is faster.
+
+CSS Selectors :- 
+>>What is CSS Selectors ?
+Ans- A Selector is a pattern which will be used to provide css to target specify html element on a web page and provide properties to them.
+
+>>How to use a CSS Selector ?
+Ans-  Syntax :-
+Selector{
+            properties : value
+        }8gt7seyrh 6druioerfsdt5ty6ugtfrdew32
+
+>>Types of Css Selectors ?
+Ans- There are 12 types of Css selectors :-      {Top 4 most common then in decreasing order less used}
+1. Class
+2. Element
+3. Id 
+4. Universal
+5. Grouping
+6. Child 
+7. Descendant
+8. Pseudo
+9. PseudoElement
+10. Adjacent Sibling
+11. General Sibling
+12. Attribute
+
+1. Class - It is the type of attribute using which we can define css to that element . 
+We are using "." a dot
+
+.5769klojhfdxweq23476yhujgfdxews3456y8uikjhgvcfdesryjyj{
+    bg = red
+}
+.one{
+ bg = green
+}
+div class = 'one'
+div
+div
+div class = 'one'
+
+2. Element Selector - It is a type of css Selector where we will use the html name(i.e tag name ) to insert or specify css to the given element.
+Direct element name
+eg -
+h3{
+    color = 'brown'
+}
+
+3.Id Selector - We will insert css by using id given to the html element . We will use "#" a hashtag here.
+
+4. Universal Selector - Whenever we want to apply css to all the elements of out html document then we will use it.
+We will use "*" here.
+*{
+    margin :0
+    padding :0
+}
+
+5. Grouping -  Whenever we want to apply same styling for multiple elements simintinounsly then we will go for Grouping selector.
+
+6. Child - It is a type of selector using which we can provide css to the Direct Child of an element.
+eg - 
+style
+div > p{
+    color = "red"
+}
+style
+<div>
+<p>....</p>
+</div>
+
+7. Descendant - Whenever we want to provide css to an element which is inside another element then we will go for Descendant selector.
+style
+div p{
+    color = "red"
+}
+style
+<div>
+<span>
+<p>....</p>
+</span>
+</div>
+
+8. Pseudo - Whenever we want to provide style to an element based on its state(behavior like hover,focus,active,link,visited)
+e.g - a : hover
+a : link
+a: active
+input : focus
+
+9. PseudoElement - Whenever we want to provide css to a specify part of an element . We will use this.
+p :: first_letter{
+    color = "blue"
+}
+
+10. Adjacent Sibling - It is a way of providing to the element those who are adjacent to each other.
+h2+p{
+    ...
+}
+
+11. General Sibling - This type of providing css will be given to all the Siblings of the given element. We avoid it .
+h2~p{....}
+
+12. Attribute - Whenever we want to provide styling using attribute then we will go for this.
+input[type:"text"]{....}

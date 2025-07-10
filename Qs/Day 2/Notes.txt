@@ -1,4 +1,0 @@
-Paragraph tag : This tag will define a paragraph within our html document.
-hr tag : Its stand for horizontal rule when ever we use this tag it wil put a horizontal line in our html page.
-br tag : This tag will be use as a line breaker tag.
-pre tag : give us o/p as it is. but limitation is that it will aslo consider the space .

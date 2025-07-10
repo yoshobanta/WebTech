@@ -1,0 +1,8 @@
+<center> tag : It is a tag which will put the content of our html document in the center.
+
+<li> tag : <li>These are the tags using which we can show our content in a sequential manner.
+There are 2 types of lists 1) ordered list <ol></ol> 2)unorder list <ul>
+
+ordered list : We will go for ordered list when ever we want to show our content in a numeric or alphabetic order .
+unorder list : We will use this tag whenever we want to show our content in a list format but not in a specific numerical or alphabetical format.
+There are two more types of list tag : 1) Description list 2)nested list

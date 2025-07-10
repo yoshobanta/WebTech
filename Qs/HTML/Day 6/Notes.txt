@@ -1,0 +1,39 @@
+Media Tag :
+
+Audio Tag <audio> </audio> - It is a tag which will be use to insert an audio file in our html document.
+It is a paired tag.
+
+Attributes of audio tag - There are 4 attributes in audio tag.
+1. Autoplay - This attribute will make the audio play as soon as it is ready.
+2. Controls - This attribute will provide the play or pause button in our html document.
+3. Loop - This attribute will start the audio over again , every time it is finished.
+4. Muted - This attribute will mute the audio in the final o/p.
+
+Video Tag <video> </video> - This tag will be used to put a video content in our html document.
+It is a paired tag.
+*Video tag have the same attributes as audio tag.
+
+Image tag <img> - It is a tag which we will use to insert a image in our html document.
+It has two attributes 
+src - This attribute will specify the path of the image.
+####
+Best Practice:
+Use relative paths for local images (to keep your project portable).
+Use absolute paths for CDN/external images (when the image isn’t in your project).
+####
+
+alt - This attribute will specify the alternate text of the image. If it is not getting fetched due to some reason.
+
+Anchor tag <a> - It is tag which will be used to specify the hyperlink in our html document which will be used to link one webpage to another.
+
+Attributes of anchor tag - There are 3 attributes in anchor tag.
+1. href - In this attribute we will specify the url of the page which we want to link.
+2. target - In this attribute we will specify the way in which the web page will get loaded.
+
+This attribute contains 4 different values .
+a. _blank - whenever we will put this value in the target attribute it will make the webpage open in a new tag or new window.
+b. _self - this will open the linked document in the same window. this is the default value for this attribute.
+c. _parent - this will open the document in the parent fame .
+d. _top - this will open the document in the full body of the window.
+
+3. downloaded - this attribute will make our hyperlink downloadable upon clicking on it.

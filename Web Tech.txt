@@ -1,0 +1,16 @@
+Optimized 50-Hour Recommendation
+Given your goals of moderate time investment with great depth, consider this enhanced version:
+
+HTML Fundamentals (Scrimba) - 3 hours ✓
+
+Enhanced CSS Grid & Flexbox - 8 hours (use project-based alternative)
+
+JavaScript Advanced Concepts (Andrei Neagoie) - 12 hours ✓
+
+TypeScript Fundamentals - 5 hours (essential addition)
+
+Complete Intro to React (Brian Holt) - 20 hours ✓
+
+Testing & Performance Basics - 2 hours
+
+Total: 50 hours (additional 8 hours for crucial modern skills)

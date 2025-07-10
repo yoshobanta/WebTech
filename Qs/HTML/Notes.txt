@@ -1,0 +1,9 @@
+Html Tag has been classified into 2 types:
+1. Semantic Tag
+2. Non Semantic Tag
+
+1. Semantic Tag :These are the tags which will clearly define its meaning and the functionality just by reading them. These tag come into wide use from Html5.
+Some of the Semantic tag are front, em, strong.
+
+2. Non Semantic Tag : Does not define its meaning or functionality of their content.
+Some of the non semantic tag are bold, i div etc.

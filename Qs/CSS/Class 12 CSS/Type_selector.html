@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CSS Selectors Demo</title>
+  <link rel="stylesheet" href="Type_selector.css">
+</head>
+<body>
+
+  <h1>CSS Selector Demo</h1>
+
+  <!-- Class Selector -->
+  <p class="highlight">1. This is a Class selector</p>
+
+  <!-- Element Selector -->
+  <p>2. This is selected using Element selector</p>
+
+  <!-- ID Selector -->
+  <div id="unique">3. This is styled using ID selector</div>
+
+  <!-- Universal Selector -->
+  <div>4. All elements get margin from Universal selector</div>
+
+  <!-- Grouping Selector -->
+  <h2>5. Grouped h1 & h2 are colored green</h2>
+
+  <!-- Child Selector -->
+  <div class="parent">
+    <div class="child">6. Direct Child Selector</div>
+    <div>
+      <div class="child">This won't be affected by Child selector</div>
+    </div>
+  </div>
+
+  <!-- Descendant Selector -->
+  <div class="ancestor">
+    <span class="descendant">7. Descendant Selector</span>
+  </div>
+
+  <!-- Pseudo-class Selector -->
+  <a href="#">8. Hover over me (Pseudo-class)</a>
+
+  <!-- Pseudo-element Selector -->
+  <p>9. First letter of this paragraph is large and purple</p>
+
+  <!-- Adjacent Sibling Selector -->
+  <div class="first">10. I'm the first element</div>
+  <div class="second">Adjacent sibling styled</div>
+
+  <!-- General Sibling Selector -->
+  <div class="all-siblings">11. General sibling 1</div>
+  <div class="all-siblings">11. General sibling 2</div>
+
+  <!-- Attribute Selector -->
+  <input type="text" placeholder="12. Input with type='text'" />
+  <input type="email" placeholder="This won't be affected" />
+
+</body>
+</html>

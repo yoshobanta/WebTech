@@ -1,0 +1,33 @@
+Form tag - <form>...</form> - It is a tag which will be used to take  input from the user and fill the desired container of a web page.
+
+#Input tag - It is a tag which will specify the field where the user can give / enter the data.
+The input tag is the most important tag of the form element.
+We will be using input tag according to our requirement based on the provided attributes.
+There are many attributes of input tag and they are :
+1. Text(Default attribute)
+2. Email 
+3. Number
+4. Date
+5. Password
+6. Tel
+7. Radio
+8. Checkbox       
+9. Submit
+10. Reset
+11. Search
+12. Url
+13. BUtton
+14. File
+15. DateTime-Local
+16. Hidden
+17. Image
+18.week
+19.month
+20.placeholder
+21. Required
+22. Name
+etc...
+#Lable Tag - It is a tag which will give a lable / name to the input field which will help the user to identify which data will be provided in which field.
+#Select Tag - It is a tag which will be used to provide a dropdown list.
+##Option Tag -  This tag will provide Options to the dropdown list.
+#Action Tag - get/post

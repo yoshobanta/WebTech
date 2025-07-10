@@ -1,0 +1,8 @@
+Tables - Whenever we want to represent our content in rows and columns format then we will go for html table.
+It is a paired tag which will be represented as <table>...</table>
+// Specifies that the <th> tag is used to define the header of an HTML table.
+In order to specify the header of our html table we will use <th> tag. 
+In order to define the row of our html table we will use <tr> tag.
+In order to define the data into the cell we will use <td></td> tag.
+
+Row Span -

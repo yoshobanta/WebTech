@@ -1,0 +1,24 @@
+description list--->>>>
+
+- a description list is used to display the list items corresponding to which it will also contained the definition or description about the particular list item.
+
+- it is paired tag 
+-Example
+
+<body>
+    <dl>
+        <dt>Chili Chiken</dt>
+        <dd><ol>
+            with Bone ....................100
+        </ol></dd>
+        <dd><ol>
+            with Bone ....................100
+        </ol></dd>
+        <dd>with Bone ....................100</dd>
+        <dd>with Bone ....................100</dd>
+    </dl>
+</body>
+ 	 	
+nested list---->>>
+- when ever we are using all the above type of list into a single html document. Then that will be known as nested list.
+- 
