@@ -12,4 +12,4 @@ It will also consider the line breaks as well as the space we have given within 
 <sup> tag :whenever we want to use the superscript to our text. (power)
 <abbr> tag : This tag will help use to add abbreviation to our text.
 <u> tag : This tag will be used to put under line in our text.
-<marquee> tag : The <marquee> HTML element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes. (depriciated)
+<marquee> tag : The <marquee> HTML element is used to insert a scrolling area of text. You can control what happens when the text reaches the edges of its content area using its attributes. (depreciated)

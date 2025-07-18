@@ -119,3 +119,87 @@ h2~p{....}
 
 12. Attribute - Whenever we want to provide styling using attribute then we will go for this.
 input[type:"text"]{....}
+
+
+13. Difference between adjacent selector and general sib selector.
+In adjacent selector it will select the very next and the first sibling to provide the css. 
+But the general siblings selector will select all the siblings below it.  
+
+The CSS Box Model Defines how elements are rendered and how their dimensions are calculated .
+It describe the structure of and element as a rectangular box that has margin,border,padding,content .
+
+
+MARGIN -
+The margin is the space outside the element that separates it from other elements in the layout .
+The margin of the element is controlled by the margin property.
+
+
+The border surrounds the elements content and padding and give the visual border of the element .
+The border properties are define are by using border.
+
+Padding is the space between the content and the border .
+the padding properties are define by using padding keyword.
+
+Content - The inner-most component of the box-model is the content of the element, it can be a text,image, audio, video etc.
+The content area is define by using height and width .
+
+Box Sizing -  This Css property will control the total sizing of our web page which includes the entire width with margin and padding . 
+It have 2 values = Border-box and Content-box(default)
+
+---------------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxxx-----------------------xxxxxxxxxxxxxxxxxxxxxxxxxxxx---------------------
+
+Text And Font Properties - 
+1. color - it will add color to our text. 
+2. font size - by using this we can alter the size of our fonts .
+3. font family - this will help the programmer to select or use desired font type.
+4. font weight - it is use to set the boldness of the font
+5. text align - it is use for placement of our font in horizontal .
+6. text decoration - it will be use to provide some basic decorations to our font like underline,overline,etc.
+7. line height - this css property will decide the spacing in between the lines of text .
+8. letter spacing - this css property will be used to provide spacing in between letters .
+
+background properties:
+1. background color - by using this css property we can add color to our background.
+2. background image - by using this css property we can add image to our background.
+3. background size  - by using this css property we can specify the background size of our image.
+4. background repeat - it is use to either ro repeat or to stop repeating behavior of our image.
+5. background position - it will decide the position of our background of our image.
+6. background attachment - by using this we can decide whether the background will scroll with the page or stay fixed with the page.
+7. background clip - it will help the programmer to define the area within which the background is painted .
+8. background origin - it will help use to set the starting point of our background image. 
+
+Display layout - It is a css property using which we can decide how our html element is displayed in the layout.
+
+
+1. display:block - This property will make the element behave like a block level element . 
+whenever we will use this property it will always make the element start from a new line.
+
+2. display:inline - This property will make the element behave like an inline level element .
+by using this property for an element will make every element doesn't start from a new line.
+
+3. display: inline-block - This property will make the element behave like an inline level element but allows setting like width and height just like block element .
+
+4. display:none - by using this property we will be able to remove the entire element from our document's layout , which will make the very next element to take its place .
+
+****{5. display:hidden(visibility hidden ) - by using this property we will be able to display functionality but with other keyword visibility this css property  will make the be hidden but the layout space will remain as it is .}****
+
+6. display:flex - it will turn the element(container) into a flex box for flexible layout . 
+it is also use for flexible layout . 
+
+7. display:grid - it will turn the container into a grid layout format .
+
+8. display:inline-flex - it will make the flex container behave like a inline element .
+
+9. display:inline-grid - it will make the grid container behave like a inline element .
+
+Positioning - By using this css property we will be able to control and decide how an element will be placed in the document .
+We will be using this css property with "position" keyword .
+
+This css property will not only decide the elements position but also how it will be relating to the other elements.
+The important values for position property are : absolute, relative , fixed and sticky 
+
+1. position:absolute - it will position the element to its nearest positioned element .
+2. position:relative - it will move the element to its normal position where the space occupied is still reserved .
+3. position:fixed - it will fixed the element in its place even when the web page is been scrolled .
+4. position:sticky - it will by using this css property we can make our element scrollable to some extent after that it will become fixed .
+
