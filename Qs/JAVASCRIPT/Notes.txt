@@ -1,0 +1,9 @@
+JAVASCRIPT
+What is JavaScript?
+JavaScript is a high-level object-based programming language .
+It will be used for clint side scripting. It is user-friendly.
+Feature of JavaScript –
+•	Open sourced
+•	Dynamically typed language
+•	Light weight 
+
