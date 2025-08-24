@@ -1,4 +1,4 @@
-do {
-//     console.log("Hii");
-    
-// } while (false);
+for (var key in ob1){
+
+    console.log(key + " " +ob1[key]);
+}
