@@ -1,4 +1,4 @@
-let a = "shu"
+let a = "yosho"
 
 switch (a) {
     case "yosho":
@@ -11,7 +11,6 @@ switch (a) {
         console.log("Hello Riti");
         break;
     default:
-        console.log("Hello Unknown");
-        
+        console.log("Hello unknown");
         break;
 }
